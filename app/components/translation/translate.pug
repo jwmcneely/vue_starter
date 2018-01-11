@@ -1,0 +1,9 @@
+mixin app-translate-template-mixin
+  template#app-translate-template
+    span
+      form.form-inline
+        label.hidden-sm.hidden-xs(for="langy") Language
+        select#langy.form-control(v-model="langcode")
+          option(v-for="lang in langlist",
+           :value="lang",
+           ) {{lang}}

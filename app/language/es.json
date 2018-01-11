@@ -1,0 +1,18 @@
+{
+  "langcode": "es",
+  "ACCESS_TOKEN_LOGIN": "Iniciando sesión",
+  "HEADER_ACCOUNT": "Cuenta",
+  "HEADER_LOG_OUT": "Cerrar sesión",
+  "HEADER_CHANGE_PASSWORD": "Cambia la contraseña",
+  "TEST_1": "PRUEBA 1",
+  "TEST_2": "PRUEBA 2",
+  "LOGIN_TITLE": "Inicie sesión en esta aplicación",
+  "LOGIN_USERNAME": "Nombre de usuario",
+  "LOGIN_PASSWORD": "Contraseña",
+  "LOGIN_LOGIN": "Iniciar sesión",
+  "LOGIN_GOOGLE": "Inicia sesión con Google",
+  "LOGIN_FORGOT_PW": "Se te olvidó tu contraseña",
+  "LOGIN_INVALID_USER": "El sistema no puede iniciar sesión: Usuario no válido",
+  "LOGIN_SERVER_ERROR": "El sistema no puede iniciar sesión debido a un error del servidor",
+  "NOROUTE_MESSAGE": "Ninguna página coincide con su destino. Seleccione una página de la barra de navegación."
+}

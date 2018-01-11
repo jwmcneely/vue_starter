@@ -1,0 +1,18 @@
+{
+  "langcode": "ja",
+  "ACCESS_TOKEN_LOGIN": "あなたのログイン",
+  "HEADER_ACCOUNT": "アカウント",
+  "HEADER_LOG_OUT": "ログアウト",
+  "HEADER_CHANGE_PASSWORD": "パスワードを変更する",
+  "TEST_1": "テスト1",
+  "TEST_2": "テスト2",
+  "LOGIN_TITLE": "このアプリにログイン",
+  "LOGIN_USERNAME": "ユーザー名",
+  "LOGIN_PASSWORD": "パスワード",
+  "LOGIN_LOGIN": "ログイン",
+  "LOGIN_GOOGLE": "Googleでログインする",
+  "LOGIN_FORGOT_PW": "パスワードをお忘れですか",
+  "LOGIN_INVALID_USER": "システムがログインできません：無効なユーザー",
+  "LOGIN_SERVER_ERROR": "システムはサーバーエラーのためにログインできません",
+  "NOROUTE_MESSAGE": "あなたの目的地に一致するページはありません。ナビゲーションバーからページを選択してください。"
+}

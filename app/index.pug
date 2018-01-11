@@ -1,0 +1,31 @@
+include ../ignore/templates.pug
+
+html
+    head
+      meta(name="viewport", content="text/html; charset=utf-8; width='device-width, initial-scale=1.0'", http-equiv="Content-Type")
+      title Vue Starter Site
+      base(href="/")
+      link(rel="stylesheet", href="index.css")
+      link(rel="stylesheet", href="font-awesome/css/font-awesome.min.css")
+
+    body()
+      #app-main.col-md-10.col-md-offset-1
+        span
+          router-view(name="header")
+          router-view(name="navbar")
+          transition(name="fade")
+            router-view(name="body", style="position: absolute; left: 20px; top: 120px;")
+          app-alerts
+            
+      +app-login-template-mixin
+      +app-access-token-template-mixin
+      +app-navbar-template-mixin
+      +app-translate-template-mixin
+      +app-header-template-mixin
+      +app-alerts-template-mixin
+      +app-header-login-template-mixin
+      +app-noroute-template-mixin
+      +app-test-template-mixin
+      +app-test2-template-mixin
+        
+      script(src="index.js")

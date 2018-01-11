@@ -1,0 +1,19 @@
+////////////////////////
+// environment.js
+// find-tag: app_environment_js
+// author: Jim McNeely
+// 12/28/2017
+////////////////////////
+
+const api_fake_url = 'http://vue.app:3000/';
+
+const api_base_url = 'https://site-api-dev3.apana.us/';
+const api_base_url_version = 'https://site-api-dev3.apana.us/v1/';
+
+//local_dev
+const google_client_id = '966850093313-6po09nbe9adflkch52u6a2r8spjrb5o5.apps.googleusercontent.com';
+//cloud_dev
+// const google_client_id = '966850093313-qtbl1hftldk02oopto3le3b4dm6irb50.apps.googleusercontent.com';
+
+const client_id = 'apana-angular-client';
+const client_secret = 'pai`Cuogh7';

@@ -1,0 +1,18 @@
+{
+  "LANGCODE": "fr",
+  "ACCESS_TOKEN_LOGIN": "Connexion à vous",
+  "HEADER_ACCOUNT": "Compte",
+  "HEADER_LOG_OUT": "Connectez - Out",
+  "HEADER_CHANGE_PASSWORD": "Changer le mot de passe",
+  "TEST_1": "TESTER 1",
+  "TEST_2": "TESTER 2",
+  "LOGIN_TITLE": "Connectez-vous à cette application",
+  "LOGIN_USERNAME": "Nom d'utilisateur",
+  "LOGIN_PASSWORD": "Mot de passe",
+  "LOGIN_LOGIN": "S'identifier",
+  "LOGIN_GOOGLE": "Connectez-vous avec Google",
+  "LOGIN_FORGOT_PW": "Mot de passe oublié",
+  "LOGIN_INVALID_USER": "Le système ne peut pas vous connecter: Utilisateur invalide",
+  "LOGIN_SERVER_ERROR": "Le système ne peut pas vous connecter en raison d'une erreur de serveur",
+  "NOROUTE_MESSAGE": "Aucune page ne correspond à votre destination. Veuillez sélectionner une page dans la barre de navigation."
+}

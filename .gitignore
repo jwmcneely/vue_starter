@@ -1,0 +1,13 @@
+# Custom
+# directories to ignore
+build/**
+node_modules/
+ignore/
+
+# file types to ignore
+.DS_Store
+*.html
+*.log
+*.sql
+
+# files to ignore

@@ -1,0 +1,11 @@
+mixin app-alerts-template-mixin
+  template#app-alerts-template
+    .centered
+      transition-group(name="alert-trans", tag="div")
+        .alert(
+          v-for="alert in alerts_list", 
+          v-bind:key="alert.id",
+          :class="['alert-' + alert.type]") 
+          .fa.btn-fa.fa-times-circle.pull-right(@click="remove_alert(alert.id)")
+          .t5 
+            h3 {{alert.msg | translate}}

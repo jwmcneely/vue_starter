@@ -1,0 +1,10 @@
+mixin app-navbar-template-mixin
+  template#app-navbar-template
+    .row.t10
+      .btn-group.col-md-12.btn-group-justified
+        .btn-group(v-for="btn in nav_buttons")
+          button.btn.btn-success.btn-group.nav-btn(
+            @click="navigate(btn.route)",
+            :class="{active: btn.route == cur_nav}",
+            :ref="btn.route"
+            ) {{btn.name | translate}}

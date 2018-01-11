@@ -1,0 +1,12 @@
+mixin app-test-template-mixin
+  template#app-test-template
+    span
+      h1 Test 1 template
+      button.btn.btn-success(@click="showy = ! showy") Testy
+      transition(name="fade")
+        span(v-show="showy", style="position: absolute; left: 75px; top: 100px;")
+          h3 Felicity 1
+      transition(name="fade")
+        span(v-show="! showy", style="position: absolute; left: 75px; top: 100px;")
+          h3 Craptastic 1.5
+      button.btn.btn-danger(@click="add_alert") Add Test Alert

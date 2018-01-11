@@ -1,0 +1,23 @@
+mixin app-header-template-mixin
+  template#app-header-template
+    span
+      .row.b10
+        .col-md-3.col-lg-3.hidden-sm.hidden-xs
+          img.pull-left(src="img/apana_logo_small.png")
+        .col-sm-3.col-xs-3.hidden-lg.hidden-md
+          img.pull-left.t10(src="img/apana_logo_small.png", style="width: 100px;")
+        .col-md-4.col-md-offset-5.col-lg-4.col-lg-offset-5.col-xs-9.col-sm-9.t10
+          span.pull-right
+            span(style="display: inline-block;")
+              app-translate
+            span.l20(style="display: inline-block;")
+              .dropdown
+                button.btn.btn-success.dropdown-toggle(type="button", data-toggle="dropdown")
+                  .fa.fa-user.r10
+                  | {{'HEADER_ACCOUNT' | translate}}
+                  span.caret.l10
+                ul.dropdown-menu
+                  li
+                    a(href="#", @click="logout") {{ 'HEADER_LOG_OUT' | translate }}
+                  li
+                    a(href="#") {{'HEADER_CHANGE_PASSWORD' | translate }}

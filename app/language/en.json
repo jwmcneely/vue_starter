@@ -1,0 +1,18 @@
+{
+  "langcode": "en",
+  "ACCESS_TOKEN_LOGIN": "Logging You In ...",
+  "HEADER_ACCOUNT": "Account",
+  "HEADER_LOG_OUT": "Log Out",
+  "HEADER_CHANGE_PASSWORD": "Change Password",
+  "TEST_1": "Test 1",
+  "TEST_2": "Test 2",
+  "LOGIN_TITLE": "Log Into This App",
+  "LOGIN_USERNAME": "Username",
+  "LOGIN_LOGIN": "Log In",
+  "LOGIN_PASSWORD": "Password",
+  "LOGIN_GOOGLE": "Login with Google",
+  "LOGIN_FORGOT_PW": "Forgot Password",
+  "LOGIN_INVALID_USER": "System can't log you in: Invalid User",
+  "LOGIN_SERVER_ERROR": "System can't log you in due to a server error",
+  "NOROUTE_MESSAGE": "No page matches your destination. Please select a page from the navigation bar."
+}
