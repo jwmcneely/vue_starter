@@ -1,4 +1,4 @@
-*3/08/2019 Jim McNeely vue_starter Read Me file
+*3/08/2019 Jim McNeely III vue_starter Read Me file
  
 ADDING A COMPONENT =======================================================
   * if it has its own vuex module, declare it first as a constant, then be sure to add it to the main.js module declarations.
