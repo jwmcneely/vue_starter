@@ -1,7 +1,7 @@
 ////////////////////////
 // translate.js
 // find-tag: app_translate_js
-// author: Jim McNeely
+// author: Jim McNeely III
 // 12/20/2017
 ////////////////////////
 
