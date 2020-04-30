@@ -13,7 +13,7 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-uglifycss": "^1.0.9",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.4",
     "lodash-uuid": "^0.0.3",
     "moment": "^2.19.4",
