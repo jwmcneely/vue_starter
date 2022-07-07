@@ -16,7 +16,7 @@
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "lodash-uuid": "^0.0.3",
-    "moment": "^2.19.4",
+    "moment": "^2.29.4",
     "run-sequence": "^2.2.0",
     "vue-cookies": "^1.5.4",
     "vue-router": "^3.0.1",
